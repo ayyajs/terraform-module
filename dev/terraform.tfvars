@@ -1,9 +1,6 @@
-amiid       = "ami-0a2457eba250ca23d"
-instance_type = "t2.micro"
-
-sgname      = "web"
+sgname      = "dev1"
 cidr        = ["0.0.0.0/0"]
-mytag       = "dev_env"
-
+mytag       = "ayya-module"
+amiid       = "ami-0a2457eba250ca23d"
 machinetype = "t2.micro"
-keyname     = "oct21-wekdays-morning"
+keyname     = "web"
